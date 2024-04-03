@@ -7,12 +7,21 @@
 //
 
 import UIKit
-
+import CoreCar
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Create instance of CarBrand
+        let carBrand = CarBrand(name: "Toyota")
+
+        // Create instance of CarModel
+        let carModel = CarModel(name: "Toyota", model: "Camry")
+
+        // Get car model
+        let model = carModel.getModel()
+        
+        print("testName", carModel.getName())
     }
 
     override func didReceiveMemoryWarning() {
