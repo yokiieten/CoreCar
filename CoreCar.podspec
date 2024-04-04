@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/yokiieten/CoreCar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yokiieten' => 'yokten10@gmail.com' }
+  s.author           = { 'yokiieten' => 'yokten01@gmail.com' }
   s.source           = { :git => 'https://github.com/yokiieten/CoreCar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
